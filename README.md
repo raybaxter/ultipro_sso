@@ -1,7 +1,7 @@
 # ultipro_sso
 Example Ruby code for interacting with [Ultipro Federated Single Sign-On (SSO) User Service](https://connect.ultipro.com/documentation#/api/1183) for creating SSO User Records. Note that the XML Example code on that page is not correct. It is for the Employee New Hire Service. The correct XML is in `create_user.xml` for your reference.
 
-##To use
+## To use
 
 * Modify the top section of the files with your configuration parameters. Consult the [Ultipro API Documentation](https://connect.ultipro.com/documentation#/api)
 
@@ -17,7 +17,7 @@ Example Ruby code for interacting with [Ultipro Federated Single Sign-On (SSO) U
 
 ```
 
-##To Do
+## To Do
 
 * Improve error handling. This was a one-off, worked for me situation.
 * Read from a file
