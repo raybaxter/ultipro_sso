@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://www.ultipro.com/services/employeessouser/IEmployeeSsoUser/CreateSsoUser</a:Action>
+    <UltiProToken xmlns="http://www.ultimatesoftware.com/foundation/authentication/ultiprotoken">1542bf52-a121-4860-a1fb-530ffd1fdb27</UltiProToken>
+    <ClientAccessKey xmlns="http://www.ultimatesoftware.com/foundation/authentication/clientaccesskey">5ME23</ClientAccessKey>
+    <a:MessageID>urn:uuid:7648d68d-38cf-473c-9ac3-0c44b27a83f1</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body>
+    <CreateSsoUser xmlns="http://www.ultipro.com/services/employeessouser">
+      <entities xmlns:d4p1="http://www.ultipro.com/contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <d4p1:SsoUser>
+          <d4p1:ActivationKey>00000000-0000-0000-0000-000000000000</d4p1:ActivationKey>
+          <d4p1:ClientUserName i:nil="true" />
+          <d4p1:EmployeeIdentifier i:type="d4p1:EmployeeNumberIdentifier">
+            <d4p1:CompanyCode i:nil="true" />
+            <d4p1:EmployeeNumber i:nil="true" />
+          </d4p1:EmployeeIdentifier>
+          <d4p1:RetryAttempts>0</d4p1:RetryAttempts>
+          <d4p1:Status>0</d4p1:Status>
+          <d4p1:UltiProUserName i:nil="true" />
+        </d4p1:SsoUser>
+        <d4p1:SsoUser>
+          <d4p1:ActivationKey>00000000-0000-0000-0000-000000000000</d4p1:ActivationKey>
+          <d4p1:ClientUserName i:nil="true" />
+          <d4p1:EmployeeIdentifier i:nil="true" />
+          <d4p1:RetryAttempts>0</d4p1:RetryAttempts>
+          <d4p1:Status>0</d4p1:Status>
+          <d4p1:UltiProUserName i:nil="true" />
+        </d4p1:SsoUser>
+      </entities>
+    </CreateSsoUser>
+  </s:Body>
+</s:Envelope>
