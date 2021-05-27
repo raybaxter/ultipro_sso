@@ -34,7 +34,7 @@ GEM
       racc (~> 1.4)
     nori (2.6.0)
     racc (1.5.2)
-    rack (2.0.5)
+    rack (2.2.3)
     socksify (1.7.1)
     wasabi (3.5.0)
       httpi (~> 2.0)
